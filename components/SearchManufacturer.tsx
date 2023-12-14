@@ -45,7 +45,7 @@ const SearchManufacturer = ({
             as={Fragment}
             leave="transition ease-in duration-100"
             leaveFrom="opacity-100"
-            LeaveTo="opacity-0"
+            leaveTo="opacity-0"
             afterLeave={() => setQuery('')}>
             <Combobox.Options>
               {filteredManufacturers.map((item) => (
